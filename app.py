@@ -12,7 +12,16 @@ from langchain.embeddings import HuggingFaceEmbeddings
 import pickle
 
 
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+from langsmith import utils
+utils.tracing_is_enabled()
 app = Flask(__name__)
+
 
 CORS(app)
 
