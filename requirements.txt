@@ -1,0 +1,12 @@
+flask
+flask-cors
+langchain
+faiss-cpu
+huggingface-hub
+pypdf
+
+
+langchain_groq
+langchain_community
+
+sentence-transformers
