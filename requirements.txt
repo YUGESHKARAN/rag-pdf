@@ -6,5 +6,6 @@ huggingface-hub
 pypdf
 langchain_groq
 sentence-transformers
+langchain_community
 langsmith
 python-dotenv
