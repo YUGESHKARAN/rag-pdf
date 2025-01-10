@@ -1,3 +1,4 @@
 rag-pdf
 .env
 data
+faiss_index.pkl
